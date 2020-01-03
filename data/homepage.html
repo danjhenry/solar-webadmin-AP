@@ -1,0 +1,25 @@
+<body>
+  <br>
+  <form action="/" method="POST">
+    <input type="hidden" name="stop-att" value="stop">
+    <input type="submit" value="motor_stop">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    <input type="hidden" name="auto-att" value="auto">
+    <input type="submit" value="motor_auto">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    <input type="hidden" name="right-att" value="right">
+    <input type="submit" value="motor_right">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    <input type="hidden" name="left-att" value="left">
+    <input type="submit" value="motor_left">
+  </form>
+  <br>
+  <br>
+  {{motor_status}}
+</body>
